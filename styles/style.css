@@ -127,7 +127,6 @@ ol {
 
 .search-form__textfield:hover {
   cursor: pointer;
-  
 }
 
 .search-form__textfield:focus {
@@ -141,7 +140,6 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   column-gap: 15px;
- 
 }
 
 .search-form__pseudo-checkbox {
