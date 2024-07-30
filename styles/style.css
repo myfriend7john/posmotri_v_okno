@@ -88,8 +88,9 @@ ol {
   align-items: center;
 }
 
-.search-form__label:has(:focus) {
-  outline: none;
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff; 
+  outline-offset: 1px;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -127,6 +128,7 @@ ol {
 
 .search-form__textfield:hover {
   cursor: pointer;
+  
 }
 
 .search-form__textfield:focus {
@@ -140,6 +142,7 @@ ol {
 .search-form__checkbox-list {
   display: flex;
   column-gap: 15px;
+ 
 }
 
 .search-form__pseudo-checkbox {
